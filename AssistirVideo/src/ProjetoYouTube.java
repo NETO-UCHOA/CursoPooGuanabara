@@ -17,11 +17,18 @@ public class ProjetoYouTube {
         g[0] = new Gafanhoto("jubileu", 22, "m", 0, null, 0);
         g[1] = new Gafanhoto("Creuza", 12, "M", 0, null, 0);
 
-        System.out.println("_____________________________");
+        Visualizacao vis = new Visualizacao(g[0], v[2]);
+
+        System.out.println(vis.toString());
+       
+       
+        /*System.out.println("_____________________________");
         System.out.println(g[0].toString());
         System.out.println("_____________________________");
         System.out.println(g[1].toString());
-        System.out.println("_____________________________");
+        System.out.println("_____________________________");*/
+
+
         
 
     }
